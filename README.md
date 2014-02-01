@@ -3,19 +3,19 @@ OpenPeelTools
 
 Tools for use with the Region of Peel's open data
 
-fcp_xml2csv
-==============
+##fcp_xml2csv
+
 This tool simply converts the Food Check Peel (FCP) data from its original XML source to a Comma Separated Value file type for easier use and portability.
 
-Requirements
-------------
+###Requirements
+
 * Python 2.7
 * lxml - Python Library
 
 This will probably work on other Python 2.x or 3.x versions, but it has not been tested.
 
-Using
------
+###Using
+
 This script assumes the FCP XML file is in the same directory as the Python script and also assumes the file retains the original name ("FoodCheckPeel.XML").
 
 * Place the XML file and Python script in the same directory
