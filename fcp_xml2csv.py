@@ -71,6 +71,8 @@ root = etree.parse(fileName, fileParse)
 #Names of elements that will be carried over (in this case, all of them)
 headers = [ "FACILITY_NUMBER", "FACILITY_NAME", "FACILITY_TYPE", "STREET_NUMBER", "STREET_NAME", "STREET_DIR", "CITY", "X", "Y", "LAT", "LON", "INSPECTION_DATE", "STATUS", "INSPECTION_ID", "INSPECTION_TYPE", "INFRACTION_ID", "INFRACTION_TYPE" ]
 
+outputData.append(headers[:])
+
 #Here is where we grab information for each FCP location and parse it out
 def getInfo(p):
     rowData = []
